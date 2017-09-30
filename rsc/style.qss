@@ -1,0 +1,47 @@
+QToolButton:pressed {
+    background-color: rgba(0, 0, 0,0);
+}
+QToolButton {
+     background-color: rgba(0, 0, 0,0);
+     border: 5px solid rgba(0, 0, 0,0);
+     border-radius: 0px;
+     padding-left: 5px;
+     padding-right: 5px;
+}
+
+QToolButton:disabled {
+    background-color: rgba(0, 0, 0,0)
+}
+
+QToolButton:checked {
+    background-color: rgba(0, 0, 0,0)
+}
+QToolButton:focus:pressed{
+
+}
+QToolButton:focus{
+
+}
+
+QPlainTextEdit{
+   /* border: 1px solid black;*/
+}
+
+QLineEdit{
+    border: 1px solid black;
+}
+
+QLineEdit#TextSearch{
+    border: 1px solid black;
+    font: 14pt "Cantarell";
+    border-radius: 2px;
+}
+
+QTableView{
+    border: 0px solid black;
+}
+
+QListWidget{
+    background: white;
+}
+
